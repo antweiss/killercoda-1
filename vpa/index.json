@@ -1,0 +1,18 @@
+{
+  "title": "VPA deployment",
+  "description": "Install VPA from master",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Run and access",
+        "text": "test-vpa.md"
+      }
+    ],
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
